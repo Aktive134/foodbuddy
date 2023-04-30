@@ -1,5 +1,5 @@
 import { images } from '../../constant';
-import { MealImage } from '../../component';
+import { MealImage, Button } from '../../component';
 import './Header.css';
 
 function Header() {
@@ -15,12 +15,8 @@ function Header() {
             healthy again. Tailored to your personal tastes and nutritional
             needs.
           </p>
-          <a href="#" className=" btn hero__button--primary margin-right-sm">
-            Start eating well
-          </a>
-          <a href="#" className=" btn hero__button--secondary">
-            Learn more &darr;
-          </a>
+          <Button href="#" className="hero__button--primary margin-right-sm">Start eating well</Button>
+          <Button href="#" className="hero__button--secondary">Learn more &darr;</Button>
           <MealImage />
         </div>
         <div className="hero__imagebox">
