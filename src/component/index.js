@@ -1,3 +1,5 @@
 export { default as MealImage } from './MealImage/MealImage'
 export { default as Navbar} from './Navbar/Navbar'
 export { default as Button } from './Button/Button'
+export { default as DescriptionImage } from './DescriptionImage/DescriptionImage'
+export { default as DescriptionBox } from './DescriptionBox/DescriptionBox'

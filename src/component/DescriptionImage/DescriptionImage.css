@@ -1,0 +1,36 @@
+.step__image {
+  width: 35%;
+}
+
+.step__imagebox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.step__imagebox::before,
+.step__imagebox::after {
+  content: '';
+  display: block;
+  border-radius: 60%;
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.step__imagebox::before {
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: #fdf2e9;
+  z-index: -2;
+}
+
+.step__imagebox::after {
+    width: 45%;
+    padding-bottom: 45%;
+    background-color: #fae5d3;
+    z-index: -1;
+}

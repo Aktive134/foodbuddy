@@ -1,0 +1,21 @@
+.step_textbox {
+
+}
+.step__number {
+    font-size: 8.6rem;
+    font-weight: 600;
+    color: #ddd;
+    margin-bottom: 1.2rem;
+}
+.step__title {
+    font-weight: 700;
+    color: #333;
+    letter-spacing: -0.5px;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 3.2rem;
+}
+.step__description {
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
